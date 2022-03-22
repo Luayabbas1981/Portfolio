@@ -4,7 +4,13 @@
 }
 body {
   height: 100vh;
-  background-image: url(./Images/watercolor-g80a198035_1920.jpg);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 0.9612219887955182) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
   perspective: 700px;
@@ -83,8 +89,13 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -1;
-    background-image: url(./Images/watercolor-g80a198035_1920.jpg);
-    /* box-shadow: 1px 1px  3px rgb(15, 15, 15); */
+    bbackground: rgb(131, 58, 180);
+    background: linear-gradient(
+      90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 0.9612219887955182) 100%
+    );
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.2), 0 0 200px rgba(0, 0, 255, 0.6);
     transform: skew(-20deg);
     border-radius: 2rem;
