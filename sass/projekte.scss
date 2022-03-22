@@ -36,7 +36,7 @@ section {
     animation: z 3s;
     transition: 1s;
     &:hover {
-      transform: scale(2.3);
+      transform: scale(1.7);
       z-index: 3;
       @media (max-width: 1900px) {
         transform: scale(1.6);
