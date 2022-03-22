@@ -4,13 +4,7 @@
 }
 body {
   height: 100vh;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 0.9612219887955182) 100%
-  );
+  background-image: url(./Images/watercolor-g80a198035_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   perspective: 700px;
@@ -62,7 +56,7 @@ h1 {
   padding: 30px;
   text-align: center;
   @media (max-width: 767px) {
-    width: 200px;
+    width: 1700px;
   }
 
   a {
@@ -73,7 +67,7 @@ h1 {
     text-shadow: 1px 1px 1px black, -1px -1px 1px black;
 
     @media (max-width: 767px) {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
   a:hover {
@@ -89,13 +83,7 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -1;
-    background: rgb(131, 58, 180);
-    background: linear-gradient(
-      90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 0.9612219887955182) 100%
-    );
+    background-image: url(.Images/watercolor-g80a198035_1920.jpg);
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.2), 0 0 200px rgba(0, 0, 255, 0.6);
     transform: skew(-20deg);
     border-radius: 2rem;

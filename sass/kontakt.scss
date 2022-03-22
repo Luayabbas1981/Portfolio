@@ -1,12 +1,6 @@
 body {
   height: 100vh;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 0.9612219887955182) 100%
-  );
+ background-image: url(./Images/watercolor-g80a198035_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 1642px) {
@@ -103,6 +97,8 @@ body {
   }
 }
 footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
   div {
     color: white;
     font-style: italic;

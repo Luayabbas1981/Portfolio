@@ -1,7 +1,6 @@
 body {
   height: 100vh;
-  background: #833ab4;
-  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, rgba(252, 176, 69, 0.9612219888) 100%);
+  background-image: url(./Images/watercolor-g80a198035_1920.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -101,6 +100,10 @@ body {
   to {
     scale: 1;
   }
+}
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 footer div {
   color: white;
