@@ -1,111 +1,114 @@
 body {
-    height: 100vh;
+  height: 100vh;
 
-    background-image: url(/src/Images/colorful-2174045__340.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    @media (max-width: 767px) {
-        background-size: 600%;
-      
-    }
+  background-image: url(/src/Images/colorful-2174045__340.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media (max-width: 767px) {
+    background-size: 600%;
+  }
 }
 
 section {
-    height: 80vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 
-    perspective: 300px;
-    justify-content: center;
-    row-gap: 3rem;
-    column-gap: 4rem;
-    perspective-origin: right top;
-    @media (max-width: 600px) {
-        height: 120vh;
-       
-        align-items: center;
-        row-gap: 9vh;
+  perspective: 300px;
+  justify-content: center;
+  row-gap: 3rem;
+  column-gap: 4rem;
+  perspective-origin: right top;
+  @media (max-width: 600px) {
+    height: 120vh;
+
+    align-items: center;
+    row-gap: 9vh;
+  }
+  .pro {
+    position: relative;
+    background-color: rgb(218, 240, 255);
+    border-radius: 2rem;
+    width: 350px;
+    height: 350px;
+    box-shadow: inset -9px -11px 11px 3px #6a77e999;
+    animation: z 3s;
+    transition: 1s;
+    &:hover {
+      transform: scale(2.3);
+      z-index: 3;
+      @media (max-width: 1900px) {
+        transform: scale(1.6);
+      }
+
     }
-    .pro {
-        position: relative;
-        background-color: rgb(218, 240, 255);
-        border-radius: 2rem;
-        width: 350px;
-        height: 350px;
-        box-shadow: inset -9px -11px 11px 3px #6a77e999;
-        animation: z 3s;
-        transition: 1s;
-        &:hover {
-            transform: scale(2.3);
-            z-index: 3;
-        }
-        @media (max-width: 676px) {
-            width: 180px;
-            height:180px;
-        }
-        @media (min-width: 677px)and (max-width: 1200px) {
-            width: 230px;
-            height:230px;
-        }
-        img {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 85%;
-            height: 85%;
-            border-radius: 1rem;
-            @media (max-width: 1200px) {
-                width: 85%;
-                height: 85%;
-            }
-        }
-        @keyframes z {
-            from {
-                transform: translateZ(120px);
-            }
-            to {
-                transform: translateZ(0);
-            }
-        }
+    @media (max-width: 676px) {
+      width: 180px;
+      height: 180px;
     }
+    @media (min-width: 677px) and (max-width: 1200px) {
+      width: 230px;
+      height: 230px;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 85%;
+      height: 85%;
+      border-radius: 1rem;
+      @media (max-width: 1200px) {
+        width: 85%;
+        height: 85%;
+      }
+    }
+    @keyframes z {
+      from {
+        transform: translateZ(120px);
+      }
+      to {
+        transform: translateZ(0);
+      }
+    }
+  }
 }
 
 .link {
-    text-align: center;
+  text-align: center;
+  @media (max-width: 767px) {
+    margin-top: 6vh;
+  }
+
+  a {
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+    text-decoration: none;
+
+    color: white;
+    font-style: italic;
+    font-size: XX-large;
+    font-weight: bold;
     @media (max-width: 767px) {
-        margin-top: 6vh;
+      font-size: 4vw;
     }
-
-    a {
-        text-shadow: 2px 2px 5px black, -2px -2px 5px black;
-        text-decoration: none;
-
-        color: white;
-        font-style: italic;
-        font-size: XX-large;
-        font-weight: bold;
-        @media (max-width: 767px) {
-            font-size: 4vw;
-        }
-    }
+  }
 }
 
 video {
-    position: absolute;
-    top: 5%;
-    left: 7%;
-    width: 85%;
-    height: 85%;
-    border-radius: 1rem;
-    transform: scaleY(1.5) scaleX(1);
-    text-align: center;
-    @media (max-width: 767px) {
-        width: 80%;
-        height: 80%;
-        top: 11%;
-        left: 9%;
-        transform: scaleY(1.6);
-    }
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  width: 85%;
+  height: 85%;
+  border-radius: 1rem;
+  transform: scaleY(1.5) scaleX(1);
+  text-align: center;
+  @media (max-width: 767px) {
+    width: 80%;
+    height: 80%;
+    top: 11%;
+    left: 9%;
+    transform: scaleY(1.6);
+  }
 }
