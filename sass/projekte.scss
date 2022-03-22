@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-image: url(./Images/watercolor-g80a198035_1920.jpg);
+  background-image: url(/src/Images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   @media (max-width: 767px) {
@@ -73,7 +73,7 @@ section {
   }
 }
 footer {
-  margin-bottom: 100px;
+  margin: 100px auto;
 
   .link {
     text-align: center;

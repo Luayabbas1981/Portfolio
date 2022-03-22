@@ -5,7 +5,7 @@
 
 body {
   height: 100vh;
-  background-image: url(./Images/watercolor-g80a198035_1920.jpg);
+  background-image: url(./Images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   perspective: 700px;
@@ -67,7 +67,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1, .folie3, .folie2 {
-    width: 1700px;
+    width: 170px;
   }
 }
 .folie1 a, .folie3 a, .folie2 a {
@@ -95,7 +95,7 @@ h1 {
   width: 250px;
   height: 100%;
   z-index: -1;
-  background-image: url(.Images/watercolor-g80a198035_1920.jpg);
+  background-image: url(./Images/background.png);
   box-shadow: 0 0 10px rgba(0, 0, 255, 0.2), 0 0 200px rgba(0, 0, 255, 0.6);
   transform: skew(-20deg);
   border-radius: 2rem;

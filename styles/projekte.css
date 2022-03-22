@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-image: url(./Images/watercolor-g80a198035_1920.jpg);
+  background-image: url(/src/Images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,7 +84,7 @@ section .pro img {
 }
 
 footer {
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 footer .link {
   text-align: center;
