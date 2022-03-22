@@ -94,7 +94,7 @@ h1 {
   width: 250px;
   height: 100%;
   z-index: -1;
-  background-image: url(/Images/colorful-2174045__340.webp);
+  background-image: url(/src/Images/colorful-2174045__340.webp);
   /* box-shadow: 1px 1px  3px rgb(15, 15, 15); */
   box-shadow: 0 0 10px rgba(0, 0, 255, 0.2), 0 0 200px rgba(0, 0, 255, 0.6);
   transform: skew(-20deg);
