@@ -83,15 +83,18 @@ section .pro img {
   }
 }
 
-.link {
+footer {
+  margin-bottom: 40px;
+}
+footer .link {
   text-align: center;
 }
 @media (max-width: 767px) {
-  .link {
+  footer .link {
     margin-top: 6vh;
   }
 }
-.link a {
+footer .link a {
   text-shadow: 2px 2px 5px black, -2px -2px 5px black;
   text-decoration: none;
   color: white;
@@ -100,7 +103,7 @@ section .pro img {
   font-weight: bold;
 }
 @media (max-width: 767px) {
-  .link a {
+  footer .link a {
     font-size: 4vw;
   }
 }

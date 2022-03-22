@@ -41,7 +41,6 @@ section {
       @media (max-width: 1900px) {
         transform: scale(1.6);
       }
-
     }
     @media (max-width: 676px) {
       width: 180px;
@@ -74,23 +73,26 @@ section {
     }
   }
 }
+footer {
+  margin-bottom: 40px;
 
-.link {
-  text-align: center;
-  @media (max-width: 767px) {
-    margin-top: 6vh;
-  }
-
-  a {
-    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
-    text-decoration: none;
-
-    color: white;
-    font-style: italic;
-    font-size: XX-large;
-    font-weight: bold;
+  .link {
+    text-align: center;
     @media (max-width: 767px) {
-      font-size: 4vw;
+      margin-top: 6vh;
+    }
+
+    a {
+      text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+      text-decoration: none;
+
+      color: white;
+      font-style: italic;
+      font-size: XX-large;
+      font-weight: bold;
+      @media (max-width: 767px) {
+        font-size: 4vw;
+      }
     }
   }
 }
