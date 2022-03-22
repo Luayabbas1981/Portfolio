@@ -4,7 +4,7 @@
 }
 body {
     height: 100vh;
-    background-image: url(/Images/colorful-2174045__340.webp);
+    background-image: url(/src/Images/colorful-2174045__340.webp);
     background-repeat: no-repeat;
     background-size: cover;
     perspective: 700px;
@@ -55,7 +55,7 @@ h1 {
     font-style: italic;
     padding: 30px;
     text-align: center;
-    @media (max-width: ) {
+    @media (max-width: 767px) {
         width: 200px;
     }
 
