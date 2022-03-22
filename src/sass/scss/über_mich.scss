@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(/Images/colorful-2174045__340.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (max-width: 767px) {
+        background-size: 600%;
+    }
+    main {
+        font-size: 2vw;
+        font-style: italic;
+        font-weight: bold;
+        color: white;
+        margin-top: 200px;
+        text-align: center;
+        line-height: 70px;
+        @media (max-width: 767px) {
+            font-size: 5vw;
+            margin-left: 4%;
+            line-height: 35px;
+        }
+    }
+    .anker {
+        margin-top: 80px;
+        text-align: center;
+    }
+    a {
+        text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+        text-decoration: none;
+        color: white;
+        font-style: italic;
+        font-size: 1.7vw;
+        font-weight: bold;
+        @media (max-width: 767px) {
+            font-size: 5vw;
+            margin-left: 4%;
+        }
+    }
+}
+
+@for $i from 1 through 5 {
+    .r#{$i} {
+        transform: rotateX(-270deg);
+        text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+        animation: read;
+        animation-duration: 1.8s;
+        animation-delay: #{$i}s;
+        animation-fill-mode: forwards;
+    }
+}
+@keyframes read {
+    to {
+        transform: none;
+    }
+}

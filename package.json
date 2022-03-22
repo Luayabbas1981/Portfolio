@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "translate" : "sass src/scss:src/styles",
+    "watchsass" : "sass src/scss:src/styles --watch",
+    "build" : "rm dist -rf && mkdir dist && cp src/* dist",
+    "publish" : "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luayabbas1981/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luayabbas1981/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Luayabbas1981/Portfolio#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "sass": "^1.49.9"
+  }
+}
