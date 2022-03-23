@@ -15,9 +15,13 @@ body {
   perspective: 700px;
   @media (max-width: 767px) {
    
-    background: linear-gradient(90deg, rgba(243, 51, 51, 0.835) 50%, rgba(252,176,69,0.773546918767507) 100%);
-    
-    background-size: 600%;
+    background: rgb(131, 58, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(131, 58, 180, 0.7763480392156863) 0%,
+    rgba(253, 29, 29, 0.835171568627451) 50%,
+    rgba(252, 176, 69, 0.773546918767507) 100%
+  );
   }
 }
 h1 {
