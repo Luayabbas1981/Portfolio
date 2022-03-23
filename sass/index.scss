@@ -67,7 +67,7 @@ h1 {
   text-align: center;
   @media (max-width: 767px) {
     width: 140px;
-   
+   height: 60px;
     margin-right: 80px;
    
   }
@@ -75,12 +75,12 @@ h1 {
   a {
     text-decoration: none;
     color: rgb(236, 233, 233);
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     font-weight: bold;
     text-shadow: 1px 1px 1px black, -1px -1px 1px black;
 
     @media (max-width: 767px) {
-      font-size: 2rem;
+      font-size: 1.4rem;
     }
   }
   a:hover {

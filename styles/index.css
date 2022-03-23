@@ -68,19 +68,20 @@ h1 {
 @media (max-width: 767px) {
   .folie1, .folie3, .folie2 {
     width: 140px;
+    height: 60px;
     margin-right: 80px;
   }
 }
 .folie1 a, .folie3 a, .folie2 a {
   text-decoration: none;
   color: #ece9e9;
-  font-size: 1.4rem;
+  font-size: 2.3rem;
   font-weight: bold;
   text-shadow: 1px 1px 1px black, -1px -1px 1px black;
 }
 @media (max-width: 767px) {
   .folie1 a, .folie3 a, .folie2 a {
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 }
 .folie1 a:hover, .folie3 a:hover, .folie2 a:hover {
