@@ -10,7 +10,6 @@ body {
 }
 @media (max-width: 767px) {
   body {
-    background: #833ab4;
     height: 120vh;
     width: 100vw;
   }
