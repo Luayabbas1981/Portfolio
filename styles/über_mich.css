@@ -1,9 +1,8 @@
 body {
   margin: 0;
   height: 100vh;
-  background-image: url(./Images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #833ab4;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 0.7763480392) 0%, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
 }
 @media (max-width: 767px) {
   body {

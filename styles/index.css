@@ -5,9 +5,8 @@
 
 body {
   height: 100vh;
-  background-image: url(./Images/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #833ab4;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 0.7763480392) 0%, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
   perspective: 700px;
 }
 @media (max-width: 767px) {
@@ -95,7 +94,8 @@ h1 {
   width: 250px;
   height: 100%;
   z-index: -1;
-  background-image: url(./Images/background.png);
+  background: #833ab4;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 0.7763480392) 0%, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
   box-shadow: 0 0 10px rgba(0, 0, 255, 0.2), 0 0 200px rgba(0, 0, 255, 0.6);
   transform: skew(-20deg);
   border-radius: 2rem;
