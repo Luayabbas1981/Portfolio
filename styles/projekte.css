@@ -5,7 +5,7 @@ body {
 @media (max-width: 767px) {
   body {
     margin-top: 100px;
-    height: 144vh;
+    height: 152vh;
     width: 100vw;
   }
 }
@@ -97,7 +97,7 @@ footer .link {
 }
 @media (max-width: 767px) {
   footer .link {
-    margin-top: 16vh;
+    margin-top: 22vh;
   }
 }
 footer .link a {
@@ -126,10 +126,10 @@ video {
 }
 @media (max-width: 767px) {
   video {
-    width: 71%;
+    width: 73%;
     height: 75%;
     top: 11%;
-    left: 14%;
+    left: 13%;
     transform: scaleY(1.6);
   }
 }
