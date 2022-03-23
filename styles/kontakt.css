@@ -4,7 +4,7 @@ body {
 }
 @media (max-width: 767px) {
   body {
-    height: 138vh;
+    height: 142vh;
     width: 100vw;
   }
 }
@@ -132,7 +132,7 @@ footer div a {
 }
 @media (max-width: 767px) {
   footer div a {
-    font-size: 5vw;
+    font-size: 4vw;
     margin-left: -40%;
   }
 }

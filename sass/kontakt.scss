@@ -6,7 +6,7 @@ body {
     rgba(56, 50, 240, 1) 100%
   );
   @media (max-width: 767px) {
-    height: 138vh;
+    height: 142vh;
     width: 100vw;
   }
 }
@@ -129,7 +129,7 @@ footer {
       margin-left: 10%;
 
       @media (max-width: 767px) {
-        font-size: 5vw;
+        font-size: 4vw;
         margin-left: -40%;
       }
     }
