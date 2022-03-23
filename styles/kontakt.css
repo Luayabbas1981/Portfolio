@@ -2,6 +2,13 @@ body {
   height: 100vh;
   background: linear-gradient(128deg, #89f6de 0%, #3832f0 100%);
 }
+@media (max-width: 767px) {
+  body {
+    height: 120vh;
+    width: 100vw;
+  }
+}
+
 .contain {
   display: flex;
   column-gap: 5vw;

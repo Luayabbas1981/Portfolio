@@ -2,7 +2,8 @@ body {
   height: 100vh;
   background: linear-gradient(128deg, rgba(137,246,222,1) 0% , rgba(56,50,240,1)100%);
   @media (max-width: 767px) {
-   
+    height: 120vh;
+    width: 100vw;
   }
 }
 
