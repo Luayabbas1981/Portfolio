@@ -66,10 +66,10 @@ body {
 
     .front {
       background-color: rgb(218, 240, 255);
-      box-shadow: 2px 2px 11px 2px  #e92c1e;
+      box-shadow: 2px 2px 11px 2px  #c92317;
 
       i {
-        color: #e92c1e;
+        color: #c92317;
       }
     }
     .back {
@@ -79,7 +79,7 @@ body {
       background-color: rgb(218, 240, 255);
       backface-visibility: hidden;
       transform: perspective(200px) rotateY(180deg);
-      box-shadow: inset -4px 4px 6px 2px#e92c1e;
+      box-shadow: inset -4px 4px 6px 2px#c92317;
       @media (max-width: 767px) {
         font-size: 12px;
       }
