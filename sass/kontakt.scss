@@ -2,7 +2,7 @@ body {
   height: 100vh;
   background: linear-gradient(128deg, rgba(137,246,222,1) 0% , rgba(56,50,240,1)100%);
   @media (max-width: 767px) {
-    height: 120vh;
+    height: 135vh;
     width: 100vw;
   }
 }
@@ -66,20 +66,20 @@ body {
 
     .front {
       background-color: rgb(218, 240, 255);
-      box-shadow: 2px 2px 11px 2px  #c92317;
+      box-shadow: 2px 2px 11px 2px  #7c34cb;
 
       i {
-        color: #c92317;
+        color: #7c34cb;
       }
     }
     .back {
       font-size: 22px;
       font-weight: bold;
-      color:  #920e05;
+      color:  #511c8a;
       background-color: rgb(218, 240, 255);
       backface-visibility: hidden;
       transform: perspective(200px) rotateY(180deg);
-      box-shadow: inset -4px 4px 6px 2px#c92317;
+      box-shadow: inset -4px 4px 6px 2px#7c34cb;
       @media (max-width: 767px) {
         font-size: 12px;
       }

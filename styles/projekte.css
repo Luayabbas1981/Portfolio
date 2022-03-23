@@ -5,7 +5,7 @@ body {
 @media (max-width: 767px) {
   body {
     margin-top: 100px;
-    height: 120vh;
+    height: 144vh;
     width: 100vw;
   }
 }
@@ -97,7 +97,7 @@ footer .link {
 }
 @media (max-width: 767px) {
   footer .link {
-    margin-top: 11vh;
+    margin-top: 14vh;
   }
 }
 footer .link a {
