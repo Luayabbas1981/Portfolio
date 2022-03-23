@@ -4,18 +4,14 @@
 }
 body {
   height: 100vh;
-  background-image: url(./Images/gradienta-LeG68PrXA6Y-unsplash.jpg);
-
+  background: linear-gradient(128deg, rgba(137,246,222,1) 0% , rgba(56,50,240,1)100%);
+  
   perspective: 700px;
   @media (max-width: 767px) {
    
     background: rgb(131, 58, 180);
-  background: linear-gradient(
-    180deg,
-    rgba(131, 58, 180, 0.7763480392156863) 0%,
-    rgba(253, 29, 29, 0.835171568627451) 50%,
-    rgba(252, 176, 69, 0.773546918767507) 100%
-  );
+    height: 120vh;
+    width: 100vw;
   }
 }
 h1 {
@@ -24,14 +20,14 @@ h1 {
   transform: skew(-25deg);
   margin: 80px auto;
   text-align: center;
-  color: #fffefe;
+  color: #2196f3;
   opacity: 0.5;
   font-size: 50px;
   animation: trans 3s alternate;
   animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   text-shadow: 2px 2px 5px black, -2px -2px 5px black;
   @media (max-width: 767px) {
-    font-size: 40px;
+    font-size: 37px;
   }
 }
 
@@ -54,18 +50,18 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     row-gap: 3rem;
-    margin: auto;
+   
   }
 }
 .folie1 {
-  width: 230px;
+  width: 220px;
   position: relative;
   font-style: italic;
-  padding: 17px;
+  padding: 20px;
   text-align: center;
   @media (max-width: 767px) {
     
-   padding: 11px;
+  
   
    
   }
@@ -94,14 +90,15 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -1;
-    background-image: url(/src/Images/gradienta-LeG68PrXA6Y-unsplash.jpg);
+   background: linear-gradient(128deg , rgba(246,31,39,0.9360119047619048,) 60% , rgba (241,211,131,0.9192051820728291)100%);
 
     box-shadow: 0 0 10px rgba(9, 9, 241, 0.8), 0 0 200px rgba(0, 0, 255, 0.8);
     transform: skew(-20deg);
     border-radius: 2rem;
     animation: one 1s infinite alternate;
     @media (max-width: 767px) {
-     width: 200px;
+     width: 180px;
+     left: 10%;
     }
   }
 
@@ -120,7 +117,8 @@ h1 {
     border-radius: 2rem;
     animation: one 1s infinite alternate;
     @media (max-width: 767px) {
-      width: 200px;
+      width: 180px;
+      left: 13%;
      }
   }
   @keyframes one {
@@ -146,7 +144,7 @@ h1 {
     grid-template-columns: auto auto;
     column-gap: 6rem;
     align-items: center;
-    row-gap: 1rem;
+    row-gap: 2rem;
     margin-bottom: 40px;
   }
 
