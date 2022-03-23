@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 135vh;
   background: linear-gradient(128deg, #89f6de 0%, #3832f0 100%);
 }
 @media (max-width: 767px) {
@@ -111,7 +111,7 @@ footer {
 footer div {
   color: white;
   font-style: italic;
-  font-size: 4vw;
+  font-size: 2vw;
   margin-top: 140px;
   margin-left: 45%;
   text-align: center;
@@ -119,6 +119,7 @@ footer div {
 @media (max-width: 767px) {
   footer div {
     margin-left: 27%;
+    font-size: 4vw;
   }
 }
 footer div a {
