@@ -19,7 +19,7 @@ body {
 }
 @media (max-width: 1113px) {
   .contain {
-    row-gap: 4vh;
+    row-gap: 3rem;
     margin-top: 30px;
   }
 }
