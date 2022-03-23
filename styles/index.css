@@ -103,7 +103,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1::before, .folie3::before, .folie2::before {
-    width: 150px;
+    width: 220px;
   }
 }
 .folie1::after, .folie3::after, .folie2::after {
@@ -123,7 +123,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1::after, .folie3::after, .folie2::after {
-    width: 150px;
+    width: 220px;
   }
 }
 @keyframes one {
