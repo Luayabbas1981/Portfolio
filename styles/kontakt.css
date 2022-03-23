@@ -139,7 +139,7 @@ footer div a {
 
 @keyframes z {
   from {
-    transform: translateZ(120px) rotateY(-180deg);
+    transform: translateZ(40px) rotateY(-180deg);
   }
   to {
     transform: translateZ(0);
