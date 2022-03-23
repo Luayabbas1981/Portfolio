@@ -56,6 +56,7 @@ h1 {
   grid-template-columns: 200px 200px 200px;
   justify-content: center;
   column-gap: 10rem;
+  text-align: center;
   @media (max-width: 1090px) {
     display: flex;
     flex-wrap: wrap;
@@ -71,8 +72,8 @@ h1 {
   text-align: center;
   @media (max-width: 767px) {
     width: 160px;
-    height: 40px;
-    margin-left: -20px;
+    height: 75px;
+    margin-right: 20px;
    
   }
 
@@ -84,7 +85,7 @@ h1 {
     text-shadow: 1px 1px 1px black, -1px -1px 1px black;
 
     @media (max-width: 767px) {
-      font-size: 1rem;
+      font-size: 2rem;
     }
   }
   a:hover {
