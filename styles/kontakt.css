@@ -2,7 +2,7 @@ body {
   height: 135vh;
   background: linear-gradient(128deg, #89f6de 0%, #3832f0 100%);
 }
-@media (max-width: 767px) {
+@media (max-width: 1116px) {
   body {
     height: 142vh;
     width: 100vw;
