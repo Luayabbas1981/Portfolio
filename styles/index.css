@@ -82,7 +82,7 @@ h1 {
   }
 }
 .folie1 a:hover, .folie3 a:hover, .folie2 a:hover {
-  color: #323edd;
+  color: #414ceb;
   text-shadow: 0px 0px 4px #f3e9e9;
   /*  text-shadow: 0px 0px 20px rgb(0, 0, 184); */
 }
@@ -95,8 +95,8 @@ h1 {
   height: 100%;
   z-index: -1;
   background: #833ab4;
-  background: linear-gradient(90deg, rgba(131, 58, 180, 0.7763480392) 0%, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
-  box-shadow: 0 0 10px rgba(0, 0, 255, 0.2), 0 0 200px rgba(0, 0, 255, 0.6);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 0.8763480392) 0%, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.8735469188) 100%);
+  box-shadow: 0 0 10px rgba(9, 9, 241, 0.8), 0 0 200px rgba(0, 0, 255, 0.8);
   transform: skew(-20deg);
   border-radius: 2rem;
   animation: one 1s infinite alternate;
