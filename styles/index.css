@@ -80,7 +80,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1 a, .folie3 a, .folie2 a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 .folie1 a:hover, .folie3 a:hover, .folie2 a:hover {
@@ -93,7 +93,7 @@ h1 {
   top: 0;
   left: 0;
   width: 250px;
-  height: 150%;
+  height: 100%;
   z-index: -1;
   background: #833ab4;
   background: linear-gradient(90deg, rgba(150, 54, 214, 0.876) 0%, rgba(226, 47, 47, 0.835) 50%, rgba(231, 154, 47, 0.874) 100%);
@@ -114,7 +114,7 @@ h1 {
   top: 16px;
   left: 15px;
   width: 250px;
-  height: 150%;
+  height: 100%;
   z-index: -2;
   background-color: rgba(255, 255, 255, 0.8);
   box-shadow: 1px 1px 3px #0f0f0f;
