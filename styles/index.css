@@ -67,9 +67,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1, .folie3, .folie2 {
-    width: 140px;
-    height: 60px;
-    margin-right: 80px;
+    margin-right: 100px;
   }
 }
 .folie1 a, .folie3 a, .folie2 a {
@@ -103,6 +101,11 @@ h1 {
   border-radius: 2rem;
   animation: one 1s infinite alternate;
 }
+@media (max-width: 767px) {
+  .folie1::before, .folie3::before, .folie2::before {
+    width: 150px;
+  }
+}
 .folie1::after, .folie3::after, .folie2::after {
   content: "";
   position: absolute;
@@ -117,6 +120,11 @@ h1 {
   transform: skew(-20deg);
   border-radius: 2rem;
   animation: one 1s infinite alternate;
+}
+@media (max-width: 767px) {
+  .folie1::after, .folie3::after, .folie2::after {
+    width: 150px;
+  }
 }
 @keyframes one {
   to {
