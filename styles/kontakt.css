@@ -72,7 +72,7 @@ body {
 }
 .main1 section .front, .main3 section .front, .main2 section .front {
   background-color: #daf0ff;
-  box-shadow: 2px 2px 11px 2px #9851e9;
+  box-shadow: 2px 2px 11px 2px #8145c5;
 }
 .main1 section .front i, .main3 section .front i, .main2 section .front i {
   color: #8145c5;
@@ -80,7 +80,7 @@ body {
 .main1 section .back, .main3 section .back, .main2 section .back {
   font-size: 22px;
   font-weight: bold;
-  color: #422353;
+  color: #492277;
   background-color: #daf0ff;
   backface-visibility: hidden;
   transform: perspective(200px) rotateY(180deg);

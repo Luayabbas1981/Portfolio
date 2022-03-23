@@ -67,7 +67,7 @@ body {
 
     .front {
       background-color: rgb(218, 240, 255);
-      box-shadow: 2px 2px 11px 2px #9851e9;
+      box-shadow: 2px 2px 11px 2px  #8145c5;
 
       i {
         color: #8145c5;
@@ -76,7 +76,7 @@ body {
     .back {
       font-size: 22px;
       font-weight: bold;
-      color: #422353;
+      color:  #492277;
       background-color: rgb(218, 240, 255);
       backface-visibility: hidden;
       transform: perspective(200px) rotateY(180deg);
