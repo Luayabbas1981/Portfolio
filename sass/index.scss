@@ -4,13 +4,7 @@
 }
 body {
   height: 100vh;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 0.7763480392156863) 0%,
-    rgba(253, 29, 29, 0.835171568627451) 50%,
-    rgba(252, 176, 69, 0.773546918767507) 100%
-  );
+  background-image: url(/src/Images/gradienta-LeG68PrXA6Y-unsplash.jpg);
 
   perspective: 700px;
   @media (max-width: 767px) {
@@ -71,7 +65,7 @@ h1 {
   text-align: center;
   @media (max-width: 767px) {
     
-   padding: 8px;
+   padding: 11px;
   
    
   }
@@ -100,13 +94,8 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -1;
-    background: rgb(131, 58, 180);
-    background: linear-gradient(
-      90deg,
-      rgba(150, 54, 214, 0.876) 0%,
-      rgba(226, 47, 47, 0.835) 50%,
-      rgba(231, 154, 47, 0.874) 100%
-    );
+    background-image: url(/src/Images/gradienta-LeG68PrXA6Y-unsplash.jpg);
+
     box-shadow: 0 0 10px rgba(9, 9, 241, 0.8), 0 0 200px rgba(0, 0, 255, 0.8);
     transform: skew(-20deg);
     border-radius: 2rem;
