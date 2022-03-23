@@ -19,8 +19,8 @@ body {
 }
 @media (max-width: 1113px) {
   .contain {
-    row-gap: 1rem;
-    gap: 10px;
+    row-gap: 0.4rem;
+    gap: 3px;
     margin-top: 30px;
   }
 }
