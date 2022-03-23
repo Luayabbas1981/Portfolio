@@ -14,6 +14,13 @@ body {
 
   perspective: 700px;
   @media (max-width: 767px) {
+    background: rgb(180, 58, 58);
+    background: linear-gradient(
+      90deg,
+    
+      rgba(253, 29, 29, 0.835171568627451) 50%,
+      rgba(252, 176, 69, 0.773546918767507) 100%
+    );
     background-size: 600%;
   }
 }
@@ -62,7 +69,7 @@ h1 {
   
   text-align: center;
   @media (max-width: 767px) {
-    width: 130px;
+    width: 100px;
   }
 
   a {
@@ -140,7 +147,8 @@ h1 {
     grid-template-columns: auto auto;
     column-gap: 6rem;
     align-items: center;
-    row-gap: 3rem;
+    row-gap: 1rem;
+    margin-bottom: 40px;
   }
 
   i {
@@ -152,6 +160,7 @@ h1 {
     @media (max-width: 767px) {
       font-size: 9vw;
       margin-left: 30px;
+      
     }
   }
 }

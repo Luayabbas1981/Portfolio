@@ -72,7 +72,11 @@ section {
   }
 }
 footer {
+  height: 10vh;
   margin: 100px auto;
+  @media (max-width: 767px) {
+    margin-bottom: 6vh;
+  }
 
   .link {
     text-align: center;
@@ -105,8 +109,8 @@ video {
   transform: scaleY(1.5) scaleX(1);
   text-align: center;
   @media (max-width: 767px) {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     top: 11%;
     left: 9%;
     transform: scaleY(1.6);

@@ -11,6 +11,8 @@ body {
 }
 @media (max-width: 767px) {
   body {
+    background: #b43a3a;
+    background: linear-gradient(90deg, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
     background-size: 600%;
   }
 }
@@ -65,7 +67,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1, .folie3, .folie2 {
-    width: 130px;
+    width: 100px;
   }
 }
 .folie1 a, .folie3 a, .folie2 a {
@@ -135,7 +137,8 @@ h1 {
     grid-template-columns: auto auto;
     column-gap: 6rem;
     align-items: center;
-    row-gap: 3rem;
+    row-gap: 1rem;
+    margin-bottom: 40px;
   }
 }
 .font_awesome i {
