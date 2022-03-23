@@ -72,7 +72,7 @@ body {
 }
 .main1 section .front, .main3 section .front, .main2 section .front {
   background-color: #daf0ff;
-  box-shadow: 2px 2px 11px 2px #ba0660;
+  box-shadow: 2px 2px 11px 2px #9851e9;
 }
 .main1 section .front i, .main3 section .front i, .main2 section .front i {
   color: #9851e9;
@@ -84,7 +84,7 @@ body {
   background-color: #daf0ff;
   backface-visibility: hidden;
   transform: perspective(200px) rotateY(180deg);
-  box-shadow: inset -4px 4px 11px 3px #663e7e;
+  box-shadow: inset -4px 4px 11px 3px #9851e9;
 }
 @media (max-width: 767px) {
   .main1 section .back, .main3 section .back, .main2 section .back {
