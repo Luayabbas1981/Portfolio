@@ -12,7 +12,7 @@ body {
 @media (max-width: 767px) {
   body {
     background: #b43a3a;
-    background: linear-gradient(90deg, rgba(253, 29, 29, 0.8351715686) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
+    background: linear-gradient(90deg, rgba(252, 176, 69, 0.7735469188) 100% rgba(253, 29, 29, 0.8351715686) 50%);
     background-size: 600%;
   }
 }
@@ -67,7 +67,7 @@ h1 {
 }
 @media (max-width: 767px) {
   .folie1, .folie3, .folie2 {
-    width: 100px;
+    width: 160px;
   }
 }
 .folie1 a, .folie3 a, .folie2 a {

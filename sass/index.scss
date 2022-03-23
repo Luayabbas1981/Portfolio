@@ -18,8 +18,9 @@ body {
     background: linear-gradient(
       90deg,
     
-      rgba(253, 29, 29, 0.835171568627451) 50%,
+      
       rgba(252, 176, 69, 0.773546918767507) 100%
+      rgba(253, 29, 29, 0.835171568627451) 50%,
     );
     background-size: 600%;
   }
@@ -69,7 +70,8 @@ h1 {
   
   text-align: center;
   @media (max-width: 767px) {
-    width: 100px;
+    width: 160px;
+   
   }
 
   a {
