@@ -111,7 +111,7 @@ footer {
 footer div {
   color: white;
   font-style: italic;
-  font-size: x-large;
+  font-size: 4vw;
   margin-top: 140px;
   margin-left: 45%;
   text-align: center;
@@ -126,7 +126,6 @@ footer div a {
   text-decoration: none;
   color: white;
   font-style: italic;
-  font-size: xx-large;
   font-weight: bold;
   margin-left: 10%;
 }

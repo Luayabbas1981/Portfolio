@@ -1,6 +1,10 @@
 body {
   height: 100vh;
-  background: linear-gradient(128deg, rgba(137,246,222,1) 0% , rgba(56,50,240,1)100%);
+  background: linear-gradient(
+    128deg,
+    rgba(137, 246, 222, 1) 0%,
+    rgba(56, 50, 240, 1) 100%
+  );
   @media (max-width: 767px) {
     height: 135vh;
     width: 100vw;
@@ -15,8 +19,8 @@ body {
   margin-top: 100px;
   flex-wrap: wrap;
   @media (max-width: 1113px) {
-    row-gap:8rem;
-   
+    row-gap: 8rem;
+
     margin-top: 30px;
   }
 }
@@ -37,7 +41,6 @@ body {
     @media (max-width: 767px) {
       height: 0px;
       margin-top: 100px;
-      
     }
 
     &:hover {
@@ -66,7 +69,7 @@ body {
 
     .front {
       background-color: rgb(218, 240, 255);
-      box-shadow: 2px 2px 11px 2px  #7c34cb;
+      box-shadow: 2px 2px 11px 2px #7c34cb;
 
       i {
         color: #7c34cb;
@@ -75,7 +78,7 @@ body {
     .back {
       font-size: 22px;
       font-weight: bold;
-      color:  #511c8a;
+      color: #511c8a;
       background-color: rgb(218, 240, 255);
       backface-visibility: hidden;
       transform: perspective(200px) rotateY(180deg);
@@ -97,17 +100,16 @@ body {
 }
 footer {
   height: 10vh;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    @media (max-width: 767px) {
-      margin: 50px auto;
-    }
-
+  margin-top: 50px;
+  margin-bottom: 50px;
+  @media (max-width: 767px) {
+    margin: 50px auto;
+  }
 
   div {
     color: white;
     font-style: italic;
-    font-size: x-large;
+    font-size: 4vw;
     margin-top: 140px;
     margin-left: 45%;
     text-align: center;
@@ -121,7 +123,7 @@ footer {
       text-decoration: none;
       color: white;
       font-style: italic;
-      font-size: xx-large;
+
       font-weight: bold;
       margin-left: 10%;
 
