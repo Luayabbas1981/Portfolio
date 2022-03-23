@@ -61,12 +61,11 @@ h1 {
   width: 230px;
   position: relative;
   font-style: italic;
-  padding: 30px;
   text-align: center;
 }
 @media (max-width: 767px) {
   .folie1, .folie3, .folie2 {
-    width: 170px;
+    width: 130px;
   }
 }
 .folie1 a, .folie3 a, .folie2 a {
