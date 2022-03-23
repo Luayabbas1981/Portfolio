@@ -6,7 +6,7 @@ body {
 }
 @media (max-width: 767px) {
   body {
-    background: linear-gradient(90deg, rgba(252, 176, 69, 0.7735469188) 100%), rgba(253, 29, 29, 0.8351715686) 50%;
+    background: linear-gradient(90deg, rgba(243, 51, 51, 0.835) 50%, rgba(252, 176, 69, 0.7735469188) 100%);
   }
 }
 body main {
