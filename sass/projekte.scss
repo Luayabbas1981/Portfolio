@@ -103,17 +103,17 @@ footer {
 video {
   position: absolute;
   top: 7%;
-  left: 7%;
-  width: 85%;
+  left: 11%;
+  width: 76%;
   height: 85%;
   border-radius: 1rem;
   transform: scaleY(1.5) scaleX(1);
   text-align: center;
   @media (max-width: 767px) {
-    width: 75%;
+    width: 71%;
     height: 75%;
     top: 11%;
-    left: 11%;
+    left: 14%;
     transform: scaleY(1.6);
   }
 }
