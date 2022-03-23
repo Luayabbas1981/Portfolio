@@ -5,6 +5,8 @@ body {
 @media (max-width: 767px) {
   body {
     margin-top: 100px;
+    height: 120vh;
+    width: 100vw;
   }
 }
 
