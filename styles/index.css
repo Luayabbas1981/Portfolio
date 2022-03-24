@@ -75,6 +75,7 @@ h1 {
 @media (max-width: 767px) {
   .folie1 a, .folie3 a, .folie2 a {
     font-size: 1.4rem;
+    color: #e0e1e9;
   }
 }
 .folie1 a:hover, .folie3 a:hover, .folie2 a:hover {
