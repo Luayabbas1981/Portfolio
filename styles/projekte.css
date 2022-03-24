@@ -120,8 +120,8 @@ footer .link a:hover {
 video {
   position: absolute;
   top: 7%;
-  left: 11%;
-  width: 76%;
+  left: 10%;
+  width: 78%;
   height: 85%;
   border-radius: 1rem;
   transform: scaleY(1.5) scaleX(1);
@@ -129,7 +129,7 @@ video {
 }
 @media (max-width: 767px) {
   video {
-    width: 73%;
+    width: 67%;
     height: 75%;
     top: 11%;
     left: 13%;
