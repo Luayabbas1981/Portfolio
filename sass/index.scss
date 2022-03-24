@@ -4,7 +4,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(186deg, rgba(183, 185, 190, 0.776) 0%, #607d8b 14%);
+  background: linear-gradient(212deg, rgba(183, 185, 190, 0.776) 0%, #738c98 14%);
   perspective: 700px;
   @media (max-width: 767px) {
    
@@ -93,10 +93,11 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(90deg, #ff5722, 
-    #e18908 54%);
+    background: linear-gradient(154deg, #ff3c00, 
+    #ff8900 54%);
 
-    box-shadow: 0 0 10px rgba(80, 136, 240, 0.8), 0 0 200px rgba(58, 132, 243, 0.8);
+    box-shadow: 0 0 2px rgba(91, 50, 185, 0.8)
+    , 0 0 15px rgba(129, 58, 243, 0.8);
     transform: skew(-20deg);
     border-radius: 2rem;
     animation: one 1s infinite alternate;
@@ -116,6 +117,7 @@ h1 {
     height: 100%;
     z-index: -2;
     background-color: rgb(227 195 99);
+    
     box-shadow: 1px 1px 3px rgb(15, 15, 15);
     transform: skew(-20deg);
     border-radius: 2rem;
