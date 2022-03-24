@@ -61,6 +61,7 @@ h1 {
   padding: 20px;
   text-align: center;
   @media (max-width: 767px) {
+    padding: 18px;
   }
 
   a {
@@ -116,6 +117,7 @@ h1 {
     @media (max-width: 767px) {
       width: 180px;
       left: 13%;
+      top: 13px;
     }
   }
   @keyframes one {

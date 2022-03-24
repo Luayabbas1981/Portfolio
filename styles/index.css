@@ -65,6 +65,11 @@ h1 {
   padding: 20px;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .folie1, .folie3, .folie2 {
+    padding: 18px;
+  }
+}
 .folie1 a, .folie3 a, .folie2 a {
   text-decoration: none;
   color: #c7c8cf;
@@ -120,6 +125,7 @@ h1 {
   .folie1::after, .folie3::after, .folie2::after {
     width: 180px;
     left: 13%;
+    top: 13px;
   }
 }
 @keyframes one {
