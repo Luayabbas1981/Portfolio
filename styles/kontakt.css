@@ -1,6 +1,6 @@
 body {
   height: 135vh;
-  background: linear-gradient(90deg, rgba(204, 207, 214, 0.7763480392) 0%, rgba(93, 114, 173, 0.8351715686) 37%);
+  background: linear-gradient(40deg, rgba(183, 185, 190, 0.776) 0%, rgba(93, 114, 173, 0.8351715686) 14%);
 }
 @media (max-width: 1116px) {
   body {
