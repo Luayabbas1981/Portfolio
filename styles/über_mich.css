@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: linear-gradient(128deg, #89f6de 0%, #3832f0 100%);
+  background: linear-gradient(90deg, rgba(204, 207, 214, 0.7763480392) 0%, rgba(93, 114, 173, 0.8351715686) 37%);
 }
 body main {
   font-size: 2vw;
@@ -30,6 +30,9 @@ body a {
   font-style: italic;
   font-size: 1.7vw;
   font-weight: bold;
+}
+body a:hover {
+  color: #ebda41;
 }
 @media (max-width: 767px) {
   body a {

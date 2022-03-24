@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background: linear-gradient(128deg, #89f6de 0%, #3832f0 100%);
+  background: linear-gradient(90deg, rgba(204, 207, 214, 0.7763480392) 0%, rgba(93, 114, 173, 0.8351715686) 37%);
 }
 @media (max-width: 767px) {
   body {
@@ -107,6 +107,9 @@ footer .link a {
   font-style: italic;
   font-size: XX-large;
   font-weight: bold;
+}
+footer .link a:hover {
+  color: #ebda41;
 }
 @media (max-width: 767px) {
   footer .link a {
