@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background: linear-gradient(186deg, rgba(183, 185, 190, 0.776) 0%, #607d8b 14%);
+  background: linear-gradient(134deg, rgba(183, 185, 190, 0.776) 0%, #607d8b 14%);
 }
 @media (max-width: 767px) {
   body {
