@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background: linear-gradient(40deg, rgba(183, 185, 190, 0.776) 0%, rgba(77, 119, 236, 0.835) 14%);
+  background: linear-gradient(186deg, rgba(183, 185, 190, 0.776) 0%, #607d8b 14%);
 }
 @media (max-width: 767px) {
   body {
@@ -109,7 +109,7 @@ footer .link a {
   font-weight: bold;
 }
 footer .link a:hover {
-  color: #ebda41;
+  color: #8695eb;
 }
 @media (max-width: 767px) {
   footer .link a {

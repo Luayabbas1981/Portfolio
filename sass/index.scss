@@ -4,8 +4,7 @@
 }
 body {
   height: 100vh;
-  background: linear-gradient(40deg, rgba(183, 185, 190, 0.776) 0%, rgba(77, 119, 236, 0.835) 14%);
-  
+  background: linear-gradient(186deg, rgba(183, 185, 190, 0.776) 0%, #607d8b 14%);
   perspective: 700px;
   @media (max-width: 767px) {
    
@@ -82,8 +81,8 @@ h1 {
     }
   }
   a:hover {
-    color: yellow;
-    text-shadow: 0px 0px 4px #f3e9e9;
+    color: #3f51b5;
+    text-shadow: 0px 0px 2px #3f51b5;
    
   }
   &::before {
@@ -94,7 +93,8 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -1;
-    background: linear-gradient(90deg, rgba(125, 135, 156, 0.776) 0%, rgba(13, 32, 83, 0.835) 17%);
+    background: linear-gradient(90deg, #ff5722, 
+    #e18908 54%);
 
     box-shadow: 0 0 10px rgba(80, 136, 240, 0.8), 0 0 200px rgba(58, 132, 243, 0.8);
     transform: skew(-20deg);
@@ -115,7 +115,7 @@ h1 {
     width: 250px;
     height: 100%;
     z-index: -2;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(227 195 99);
     box-shadow: 1px 1px 3px rgb(15, 15, 15);
     transform: skew(-20deg);
     border-radius: 2rem;
