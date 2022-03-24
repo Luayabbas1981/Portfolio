@@ -30,11 +30,11 @@ section {
 }
 section .pro {
   position: relative;
-  background-color: #daf0ff;
+  background-color: #bdcbcb;
   border-radius: 2rem;
   width: 350px;
   height: 350px;
-  box-shadow: inset -9px -11px 11px 3px #6a77e999;
+  box-shadow: inset -9px -11px 11px 3px #607d8b;
   animation: z 3s;
   transition: 1s;
 }
